@@ -1,0 +1,9 @@
+name: CatusRTP
+version: '${project.version}'
+main: h4dro.me.catusrtp.CatusRTP
+api-version: '1.16'
+folia-supported: true
+commands:
+  rtp:
+    default: true
+    permission: rtp.use

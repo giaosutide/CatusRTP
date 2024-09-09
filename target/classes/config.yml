@@ -1,0 +1,32 @@
+settings:
+  radius: 1000
+  disableWorld:
+  - world_nether
+  - world_the_end
+timeCooldown: 10
+rtpCooldown: 5
+onMove: true
+
+messages:
+  noPlayer: "&cThis command can only be run by a player."
+  worldNotFound: "&cWorld not found."
+  cooldown: "&cWait &e{time} &cseconds to use /rtp again!"
+  teleporting: "&aTeleporting in &e{time} &aseconds..."
+  teleportSuccess: "&#9eff00✔ Teleport successful"
+  teleportCoords: "&7Coordinates: &#9eff00X: {x}, &#9eff00Y: {y}, &#9eff00Z: {z}"
+  teleportCancelled: "&cTeleportation cancelled because you moved!"
+  failFindLocation: "&cFailed to find a suitable location. Please try again."
+
+sounds:
+  countdown:
+    name: "ENTITY_EXPERIENCE_ORB_PICKUP"
+    volume: 1.0
+    pitch: 1.0
+  success:
+    name: "ENTITY_PLAYER_LEVELUP"
+    volume: 1.0
+    pitch: 1.0
+  cancel:
+    name: "BLOCK_ANVIL_LAND"
+    volume: 1.0
+    pitch: 1.0
